@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Atividade cp 7" id="4512572F-FA91-0736-447C-BE4FA06BF0D6" version="3.5">
-<createdBy>Compaq</createdBy>
-<createdTime>2021-05-22 18:45:08 UTC</createdTime>
-<ownerDesignName>Atividade cp 7</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>4512572F-FA91-0736-447C-BE4FA06BF0D6</designId>
-</OSDM_Design>
