@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE433292-7B48-5584-E995-A8FCBBAC4317" name="T_HT_ATIVIDADE">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 23:18:39 UTC</createdTime>
+<generatorID>51A719E3-6BA6-DC1B-9270-C74B81B42D3A</generatorID>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_HT_USUARIO_nm_usuario_email" id="43E43A5E-0C0E-6678-6772-F88C784B5C8D">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 23:18:39 UTC</createdTime>
+<generatorID>708BDA2A-C20F-DDD2-FBC9-B3C0188BB8DB</generatorID>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADFD3064-2E9A-9AD9-D11A-C98EABC3BB2B" referredColumn="E0CAB9A4-A083-5D91-E74D-E16A078BBC49"/>
+</associations>
+</Column>
+<Column name="T_HT_EXERCICIO_cd_exercicio" id="6CD2278A-779B-16E1-26C5-C32B780775C7">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 23:18:39 UTC</createdTime>
+<generatorID>3797C0A6-BCDD-C247-5C65-799A04265671</generatorID>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8EC7679-5446-2C57-8802-2AEDC419165E" referredColumn="7BC80B50-D5D7-4838-E61E-72344DC42C37"/>
+</associations>
+</Column>
+<Column name="dt_data_realização" id="D60589EF-5552-1D21-C023-1E892EF805A9">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 23:18:39 UTC</createdTime>
+<generatorID>E92DAF1E-8C2C-07B1-6E8F-18B1AF443011</generatorID>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_caloria_gasta" id="7D65CDC7-BE37-B55B-CFB7-624C2D81C7E4">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 23:18:39 UTC</createdTime>
+<generatorID>995C17BA-BCEC-CE87-61FA-104D220EBA82</generatorID>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D612FBB0-82EF-6593-D770-EE494FFEA755" name="T_HT_ATIVIDADE_PK">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 23:18:39 UTC</createdTime>
+<generatorID>4270C12A-5C37-AC34-0780-051F2D550F3D</generatorID>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43E43A5E-0C0E-6678-6772-F88C784B5C8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="836BFD51-2592-5811-8589-7A5D13F75B8B" name="T_HT_ATIVIDADE_T_HT_EXERCICIO_FK">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 23:18:40 UTC</createdTime>
+<generatorID>92EDF7CF-A54F-E2D7-1795-41CD446A81E8</generatorID>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CD2278A-779B-16E1-26C5-C32B780775C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23E84D8B-2B45-829C-0661-9B8850FD3E01" name="T_HT_ATIVIDADE_T_HT_USUARIO_FK">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 23:18:40 UTC</createdTime>
+<generatorID>BB6C87C0-41DA-C482-9A08-ED30F966DBFA</generatorID>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43E43A5E-0C0E-6678-6772-F88C784B5C8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

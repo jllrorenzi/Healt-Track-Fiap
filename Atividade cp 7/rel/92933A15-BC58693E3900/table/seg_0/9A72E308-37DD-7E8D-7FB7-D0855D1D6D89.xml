@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A72E308-37DD-7E8D-7FB7-D0855D1D6D89" name="T_HT_ALIMENTO">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 23:18:39 UTC</createdTime>
+<generatorID>F569812D-02D5-5A21-76D2-2EF3DF411B25</generatorID>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_alimento" id="12B32C99-FBE7-C697-73AF-A5B24EF28E7E">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 23:18:39 UTC</createdTime>
+<generatorID>9D809C3C-4203-8342-780C-6F2A1B0973DE</generatorID>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_alimento" id="7B250B29-952D-BA32-3CB7-982CA2E55853">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 23:18:39 UTC</createdTime>
+<generatorID>D51B19ED-0F79-2715-68B9-F03E15407469</generatorID>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_calorias" id="1F5219B3-DB70-6BFA-481A-A7FC226DF944">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 23:18:39 UTC</createdTime>
+<generatorID>F8B94FBC-2149-AB64-66DB-94F7021F7FA8</generatorID>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6769A9D-0E67-E6A0-563B-036F47E26A5D" name="T_HT_ALIMENTO_PK">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 23:18:39 UTC</createdTime>
+<generatorID>B38FB8E2-8001-D196-265F-7A475F86BB66</generatorID>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12B32C99-FBE7-C697-73AF-A5B24EF28E7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

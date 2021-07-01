@@ -1,0 +1,371 @@
+@media only screen and (max-width: 600px) {
+body {
+    background-color: rgb(85, 85, 85);
+}
+
+#icon
+  {width: 35px; 
+    height: 35px;}
+
+.card {
+    margin-left:15px;
+    margin-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 3px inset #131212;
+  border-radius: 15px;
+  background-color: rgba(236, 235, 235, 0.938);
+}
+
+
+  h1 {
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+  
+    text-align: center;
+    line-height: 59px;
+  
+    padding: 0 64px;
+    margin: 0;
+    
+  }
+
+h2 { font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+  
+    text-align: center;
+    line-height: 59px;
+  
+    padding: 0 64px;
+    margin: 0;
+    font-weight: 700;
+
+}
+
+
+.gold {
+    
+    font-weight: 900;
+    color: #f2c94c;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+}
+
+.gold2 {
+    
+
+    color: #f2c94c;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+}
+
+.datecontrol{
+    width: 100px;
+
+}
+
+.numbercontrol{
+    width: 60px
+}
+
+#user
+{width: 75px; 
+height: 75px;
+justify-items: center;
+margin-left: 130px;
+
+opacity: 0.4;}
+
+.logo {
+  width: 40px; 
+  height: 40px;
+  margin-left: 50px;
+}
+
+.form-check {
+    margin-left: 5px;
+   }
+   
+.link {
+margin-left: 25px;
+}
+
+.titulo {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+
+.passos {
+    text-align: center;
+}
+
+  .stopwatch {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 270px;
+    width: 270px;
+  
+    border: 2px solid;
+    border-radius: 50%;
+    color: black;
+  }
+  
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 187px;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+    
+  }
+  
+  #playButton {
+    display: block;
+    color:black;
+  }
+  
+  #pauseButton {
+    display: none;
+  }
+
+
+.rodape {
+
+    color: white;
+    text-align: center;
+    
+    
+}
+
+.titulo {
+    color:white;
+    margin-bottom: 15px;
+    text-shadow: 0 0 0px black, 0 0 50px #f2c94c;
+    font-family: "Montserrat", sans-serif;
+}
+
+#container {
+    margin-left: 150px;
+}
+
+}
+
+@media only screen and (min-width: 992px) {
+body {
+    background-color: rgb(85, 85, 85);
+}
+
+#icon
+  {width: 35px; 
+    height: 35px;}
+
+.card {
+    margin-left:150px;
+    margin-right: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 3px inset #131212;
+  border-radius: 15px;
+  background-color: rgba(236, 235, 235, 0.938);
+}
+
+
+  h1 {
+    font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+  
+    text-align: center;
+    line-height: 59px;
+  
+    padding: 0 64px;
+    margin: 0;
+    
+  }
+
+h2 { font-size: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+  
+    text-align: center;
+    line-height: 59px;
+  
+    padding: 0 64px;
+    margin: 0;
+    font-weight: 700;
+
+}
+
+
+.gold {
+    
+    font-weight: 900;
+    color: #f2c94c;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+}
+
+.grafico {
+    margin-left: 350px;
+    width: 250px; 
+    height: 200px;}
+
+.gold2 {
+    
+
+    color: #f2c94c;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+}
+
+.datecontrol{
+    width: auto;
+
+}
+
+.numbercontrol{
+    width: auto;
+}
+
+.form-control{
+    width: 400px
+}
+
+.mb-3 {
+    margin-left: 25px;
+}
+
+#validationCustom04 {
+    width: auto;
+}
+
+#validationCustom05 {
+    width: auto;
+}
+
+#user
+{width: 75px; 
+height: 75px;
+justify-items: center;
+margin-left: 430px;
+
+opacity: 0.4;}
+
+.logo {
+  width: 40px; 
+  height: 40px;
+  margin-left: 200px;
+}
+
+.form-check {
+    margin-left: 25px;
+   }
+   
+.link {
+margin-left: 100px;
+}
+
+.titulo {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+
+.passos {
+    text-align: center;
+}
+
+  .stopwatch {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 270px;
+    width: 270px;
+  
+    border: 2px solid;
+    border-radius: 50%;
+    color: black;
+  }
+  
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+  }
+
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 187px;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+    
+  }
+  
+  #playButton {
+    display: block;
+    color:black;
+  }
+  
+  #pauseButton {
+    display: none;
+  }
+
+
+.rodape {
+
+    color: white;
+    text-align: center;
+    
+    
+}
+
+.titulo {
+    color:white;
+    margin-bottom: 15px;
+    text-shadow: 0 0 0px black, 0 0 50px #f2c94c;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+}

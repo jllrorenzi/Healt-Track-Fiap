@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="possuir" directorySegmentName="seg_0" id="92EDF7CF-A54F-E2D7-1795-41CD446A81E8">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 21:55:57 UTC</createdTime>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<engineerTo>
+<item key="92933A15-2262-FCC0-9257-BC58693E3900" value="true"/>
+</engineerTo>
+<sourcePk>E991EE60-51B6-70EF-DB28-7BF80F4C3491</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D4214A4F-EB3A-10FC-85AD-03666008BBD1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>51A719E3-6BA6-DC1B-9270-C74B81B42D3A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

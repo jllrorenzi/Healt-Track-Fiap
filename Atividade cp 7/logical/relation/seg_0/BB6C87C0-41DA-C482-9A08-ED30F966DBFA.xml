@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="realizar" directorySegmentName="seg_0" id="BB6C87C0-41DA-C482-9A08-ED30F966DBFA">
+<createdBy>Compaq</createdBy>
+<createdTime>2021-05-22 21:40:29 UTC</createdTime>
+<ownerDesignName>Atividade cp 7</ownerDesignName>
+<engineerTo>
+<item key="92933A15-2262-FCC0-9257-BC58693E3900" value="true"/>
+</engineerTo>
+<sourcePk>A634614B-11BF-E3E2-D2FA-41DC70D78AE0</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C9C8B6F5-841B-5EB1-BC07-77DA2961E2D8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>51A719E3-6BA6-DC1B-9270-C74B81B42D3A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
